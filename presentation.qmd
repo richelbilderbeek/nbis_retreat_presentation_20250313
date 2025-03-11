@@ -1,5 +1,5 @@
 ---
-title: "The documentation for users at UPPMAX"
+title: "User documentation"
 author: "Richèl Bilderbeek"
 format: revealjs
 editor: visual
@@ -11,15 +11,17 @@ number-sections: true
 number-offset: -0
 ---
 
-# The documentation for users at UPPMAX
+# User documentation
+
+High quality, efficient workflow, while caring for our users
 
 ![](CC0.png) Richèl Bilderbeek
 
-<https://github.com/UPPMAX/uppmax_board_presentation_20241203>
+<https://github.com/richelbilderbeek/nbis_retreat_presentation_20250313>
 
 ## Goal
 
-To show something we do well at UPPMAX: the documentation for users at <https://docs.uppmax.uu.se/>
+To show something we do well at SCoRe: the documentation for our HPC clusters' users at <https://docs.uppmax.uu.se/>
 
 ![](home_with_border.png)
 
@@ -35,9 +37,7 @@ Our user documentation shows, that we care about:
 
 ::::: columns
 ::: {.column width="50%"}
-The GitHub repository for our documentation was created on 2022-11-10 by Matias Piqueras, with Björn Claremar joining at 2023-01-13.
-
-UU used InfoGlue at that time, which is now replaced by SiteVision.
+The GitHub repository for our documentation was created on 2022-11-10.
 :::
 
 ::: {.column width="50%"}
@@ -95,6 +95,7 @@ flowchart TD
 -   132 issues, of which 101 closed
 -   A Code of Conduct
 -   A document on how to contribute
+-   A place to give anonymous feedback
 :::
 
 ::: {.column width="50%"}
@@ -139,24 +140,24 @@ flowchart TD
 | `check_spelling` | Checks is spelling is correct                       |
 | `create_website` | Creates and deploys the website                     |
 
-## Technology comparison 1/2
+## Technology stack 1/2
 
-| Parameter       | User documentation  | `uu.se` pages        |
-|-----------------|---------------------|----------------------|
-| Technology      | MkDocs              | SiteVision           |
-| Text editor     | Plain-text markdown | WYSIWYG              |
-| Deployment      | Every commit        | Every change         |
-| Version control | `git`               | Some                 |
-| Spellcheck      | Every commit        | When creating a page |
+| Parameter       | Value
+|-----------------|--------------------
+| Technology      | MkDocs
+| Text editor     | Plain-text markdown
+| Deployment      | Every commit
+| Version control | `git`
+| Spellcheck      | Every commit
 
-## Technology comparison 2/2
+## Technology stack 2/2
 
-| Parameter             | User documentation | `uu.se` pages        |
-|-----------------------|--------------------|----------------------|
-| Layout check          | Every commit       | When creating a page |
-| URL link check        | Every commit       | When creating a page |
-| Bug tracker           | GitHub issues      | None, ?RT            |
-| Interaction with user | Issues, PRs, email | Email                |
+| Parameter             | User documentation 
+|-----------------------|-------------------------------------------
+| Layout check          | Every commit       
+| URL link check        | Every commit       
+| Bug tracker           | GitHub issues      
+| Interaction with user | Issues, PRs, email, anonymous feedback form 
 
 ## [Issue](https://github.com/UPPMAX/UPPMAX-documentation/issues/129)
 
@@ -204,9 +205,10 @@ We think we do a good job:
 
 -   When asked if documentation is clear, it usually is.
     -   When not, the documentation is updated :+1:
+-   Although there is a place for anonymous feedback on the front page,
+    not a single comment has been posted
 -   We get compliments from users in courses for having such clear documentation
     -   Also: people migrating to Dardel complain about the PDC documentation :smiley:
--   (May be related: other centers (LUNARC, PDC) have started using MkDocs too)
 
 ## Take home message
 
