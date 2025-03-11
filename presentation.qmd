@@ -1,0 +1,219 @@
+---
+title: "The documentation for users at UPPMAX"
+author: "Richèl Bilderbeek"
+format: revealjs
+editor: visual
+from: markdown+emoji
+csl: vancouver.csl
+css: styles.css
+slide-number: true
+number-sections: true
+number-offset: -0
+---
+
+# The documentation for users at UPPMAX
+
+![](CC0.png) Richèl Bilderbeek
+
+<https://github.com/UPPMAX/uppmax_board_presentation_20241203>
+
+## Goal
+
+To show something we do well at UPPMAX: the documentation for users at <https://docs.uppmax.uu.se/>
+
+![](home_with_border.png)
+
+## Spoiler
+
+Our user documentation shows, that we care about:
+
+-   quality
+-   efficiency
+-   our users
+
+## History
+
+::::: columns
+::: {.column width="50%"}
+The GitHub repository for our documentation was created on 2022-11-10 by Matias Piqueras, with Björn Claremar joining at 2023-01-13.
+
+UU used InfoGlue at that time, which is now replaced by SiteVision.
+:::
+
+::: {.column width="50%"}
+```{mermaid}
+flowchart TD
+  tickets[Tickets]
+  content[Content]
+  courses[Courses]
+  users[Users]
+  users --> |Create| tickets
+  tickets --> |Inspire| content
+  courses --> |Inspire| content
+```
+:::
+:::::
+
+## Now
+
+::::: columns
+::: {.column width="50%"}
+-   Humans
+-   Content
+-   Scripts
+:::
+
+::: {.column width="50%"}
+```{mermaid}
+flowchart TD
+  tickets[Tickets]
+  content[Content]
+  courses[Courses]
+  users[Users]
+  scripts[Scripts]
+  issues[Issues]
+  users --> |Improve| content
+  users --> |Create| issues
+  users --> |Create| tickets
+  scripts --> |Check|content
+  content --> |Solves| tickets
+  tickets --> |Inspire| content
+  courses --> |Inspire| content
+  content --> |Use| courses
+  issues --> |Inspire| content
+```
+:::
+:::::
+
+## Humans
+
+::::: columns
+::: {.column width="50%"}
+-   8 Contributors
+-   2,346 commits
+-   21 Pull Requests by 6 people
+-   132 issues, of which 101 closed
+-   A Code of Conduct
+-   A document on how to contribute
+:::
+
+::: {.column width="50%"}
+![](contributors.png)
+:::
+:::::
+
+## Content
+
+::::: columns
+::: {.column width="50%"}
+-   708 pages
+-   35,416 lines
+-   87 pages with tags
+-   532 drop-down boxes
+-   339 images
+-   2,125 internal links
+-   46 mermaid graphs
+-   67 YouTube videos
+
+```{=html}
+<!--     -   Connect to SweStore: 377 views
+    -   Migration to Dardel: 281 views
+    -   Rackham using local ThinLinc client: 139 views
+-->
+```
+:::
+
+::: {.column width="50%"}
+![](dardel_migration_page.png)
+:::
+:::::
+
+## Scripts
+
+-   5 continuous integration scripts, by 4 people
+
+| Script name      | Description                                         |
+|------------------|-----------------------------------------------------|
+| `check_links`    | Checks if all links are valid                       |
+| `check_markdown` | Checks if pages content follows a recommended style |
+| `check_spelling` | Checks is spelling is correct                       |
+| `create_website` | Creates and deploys the website                     |
+
+## Technology comparison 1/2
+
+| Parameter       | User documentation  | `uu.se` pages        |
+|-----------------|---------------------|----------------------|
+| Technology      | MkDocs              | SiteVision           |
+| Text editor     | Plain-text markdown | WYSIWYG              |
+| Deployment      | Every commit        | Every change         |
+| Version control | `git`               | Some                 |
+| Spellcheck      | Every commit        | When creating a page |
+
+## Technology comparison 2/2
+
+| Parameter             | User documentation | `uu.se` pages        |
+|-----------------------|--------------------|----------------------|
+| Layout check          | Every commit       | When creating a page |
+| URL link check        | Every commit       | When creating a page |
+| Bug tracker           | GitHub issues      | None, ?RT            |
+| Interaction with user | Issues, PRs, email | Email                |
+
+## [Issue](https://github.com/UPPMAX/UPPMAX-documentation/issues/129)
+
+![](issue.png)
+
+## [WinSCP page](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_winscp/)
+
+![](winscp_with_border.png)
+
+## [FileZilla page](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla/)
+
+![](filezilla_with_border.png)
+
+## RT Tickets, e.g. 303374
+
+![](rt_ticket_1.png)
+
+![](rt_ticket_2.png)
+
+## What it shows 1/3
+
+It shows we care about quality:
+
+-   The documentation is good enough to be used in courses, where courses ensure the documentation is kept up-to-date
+-   We detect as much mistakes as possible automatically
+
+## What it shows 2/3
+
+It shows we care about efficiency:
+
+-   The documentation is good enough to solve tickets by sending one URL, where tickets inspire to improve the documentation
+
+## What it shows 3/3
+
+It shows we care about users:
+
+-   We care about quality for them
+-   Uses can create issues, which are discussed in the documentation meetings
+-   Users can submit changes via a Pull Request, which are discussed in the documentation meetings
+-   Each page has an icon that allows a user to propose changes
+
+## What we think
+
+We think we do a good job:
+
+-   When asked if documentation is clear, it usually is.
+    -   When not, the documentation is updated :+1:
+-   We get compliments from users in courses for having such clear documentation
+    -   Also: people migrating to Dardel complain about the PDC documentation :smiley:
+-   (May be related: other centers (LUNARC, PDC) have started using MkDocs too)
+
+## Take home message
+
+Our user documentation shows, that we care about:
+
+-   quality
+-   efficiency
+-   our users
+
+## The end
