@@ -21,7 +21,8 @@ High quality, efficient workflow, while caring for our users
 
 ## Goal
 
-To show something we do well at SCoRe: the documentation for our HPC clusters' users at <https://docs.uppmax.uu.se/>
+To show something we do well at SCoRe:
+the documentation for our HPC clusters' users at <https://docs.uppmax.uu.se/>
 
 ![](home_with_border.png)
 
@@ -142,22 +143,22 @@ flowchart TD
 
 ## Technology stack 1/2
 
-| Parameter       | Value
-|-----------------|--------------------
-| Technology      | MkDocs
-| Text editor     | Plain-text markdown
-| Deployment      | Every commit
-| Version control | `git`
-| Spellcheck      | Every commit
+| Parameter       | Value               |
+|-----------------|---------------------|
+| Technology      | MkDocs              |
+| Text editor     | Plain-text markdown |
+| Deployment      | Every commit        |
+| Version control | `git`               |
+| Spellcheck      | Every commit        |
 
 ## Technology stack 2/2
 
-| Parameter             | User documentation 
-|-----------------------|-------------------------------------------
-| Layout check          | Every commit       
-| URL link check        | Every commit       
-| Bug tracker           | GitHub issues      
-| Interaction with user | Issues, PRs, email, anonymous feedback form 
+| Parameter             | User documentation                          |
+|-----------------------|---------------------------------------------|
+| Layout check          | Every commit                                |
+| URL link check        | Every commit                                |
+| Bug tracker           | GitHub issues                               |
+| Interaction with user | Issues, PRs, email, anonymous feedback form |
 
 ## [Issue](https://github.com/UPPMAX/UPPMAX-documentation/issues/129)
 
@@ -205,8 +206,7 @@ We think we do a good job:
 
 -   When asked if documentation is clear, it usually is.
     -   When not, the documentation is updated :+1:
--   Although there is a place for anonymous feedback on the front page,
-    not a single comment has been posted
+-   Although there is a place for anonymous feedback on the front page, not a single comment has been posted
 -   We get compliments from users in courses for having such clear documentation
     -   Also: people migrating to Dardel complain about the PDC documentation :smiley:
 
