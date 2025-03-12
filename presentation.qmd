@@ -15,23 +15,21 @@ number-offset: -0
 
 High quality, efficient workflow, while caring for our users
 
-![](CC0.png) Richèl Bilderbeek
+![](CC0.png) Richèl 'Rea-shell' Bilderbeek
 
-[https://github.com/richelbilderbeek/](https://github.com/richelbilderbeek/nbis_retreat_presentation_20250313)
-[nbis_retreat_presentation_20250313](https://github.com/richelbilderbeek/nbis_retreat_presentation_20250313)
+[https://github.com/richelbilderbeek/](https://github.com/richelbilderbeek/nbis_retreat_presentation_20250313) [nbis_retreat_presentation_20250313](https://github.com/richelbilderbeek/nbis_retreat_presentation_20250313)
 
-## Goal
-
-To show something we do well at SCoRe:
-the documentation for our HPC clusters' users at <https://docs.uppmax.uu.se/>
-
-![](home_with_border.png)
-
-## SCoRe and HPC clusters
+## SCoRe :nerd_face: HPC clusters
 
 SCoRe: Support for Computational Resources
 
 ![A human meddling with an HPC cluster](uppmax-light2.jpg)
+
+## Goal
+
+To show off something we do at SCoRe: the user documentation of the UPPMAX HPC clusters at <https://docs.uppmax.uu.se/>
+
+![](home_with_border.png)
 
 ## Support 1/3: Documentation
 
@@ -96,9 +94,9 @@ flowchart TD
 ::::: columns
 ::: {.column width="50%"}
 -   8 Contributors
--   2,346 commits
+-   2,786 commits
 -   21 Pull Requests by 6 people
--   132 issues, of which 101 closed
+-   154 issues, of which 134 closed
 -   A Code of Conduct
 -   A document on how to contribute
 -   A place to give anonymous feedback
@@ -113,21 +111,15 @@ flowchart TD
 
 ::::: columns
 ::: {.column width="50%"}
--   708 pages
--   35,416 lines
--   87 pages with tags
--   532 drop-down boxes
--   339 images
--   2,125 internal links
+-   364 pages
+-   39,349 lines
+-   149 pages with search tags
+-   691 drop-down boxes
+-   405 images
+-   1,405 internal links
 -   46 mermaid graphs
--   67 YouTube videos
+-   99 YouTube videos
 
-```{=html}
-<!--     -   Connect to SweStore: 377 views
-    -   Migration to Dardel: 281 views
-    -   Rackham using local ThinLinc client: 139 views
--->
-```
 :::
 
 ::: {.column width="50%"}
@@ -137,13 +129,14 @@ flowchart TD
 
 ## Scripts
 
-| Script name      | Description                                         |
-|------------------|-----------------------------------------------------|
-| `check_bash`     | Checks if scripts follows a recommended style       |
-| `check_links`    | Checks if all links are valid                       |
-| `check_markdown` | Checks if pages' content follows a recommended style|
-| `check_spelling` | Checks is spelling is correct                       |
-| `create_website` | Creates and deploys the website                     |
+| Script name      | Description                                          |
+|------------------|------------------------------------------------------|
+| `check_links`    | Checks if all links are valid                        |
+| `check_markdown` | Checks if pages' content follows a recommended style |
+| `check_spelling` | Checks is spelling is correct                        |
+| `create_website` | Creates and deploys the website                      |
+
+![](badges.png)
 
 ## Technology stack 1/2
 
@@ -186,9 +179,11 @@ flowchart TD
 
 It shows we care about quality:
 
+-   We detect as much mistakes as possible automatically
 -   The documentation is good enough to be used in courses
 -   Courses ensure the documentation is kept up-to-date
--   We detect as much mistakes as possible automatically
+
+![](badges.png)
 
 ## What it shows 2/3
 
@@ -196,15 +191,16 @@ It shows we care about efficiency:
 
 -   The documentation can solve tickets
 -   Tickets improve the documentation
+-   Anyone can help improve
 
 ## What it shows 3/3
 
 It shows we care about users:
 
+-   Each page has an 'Edit' button
 -   Uses can submit anonymous feedback anytime
 -   Uses can create issues
 -   Users can submit changes via a pull request
-  -   Each page has an 'Edit' button
 
 ## Do we do a good job?
 
@@ -216,21 +212,23 @@ We think we do a good job:
 
 -   We ask in person
 -   We hear in courses
--   We read from anonymous feedback, including course evaluations
+-   We read from anonymous feedback, includes our course evaluations (which are public!)
 
 ## Take home message
 
-Our user documentation shows, that we care about:
+Using your user documentation 
 
--   quality
--   efficiency
--   our users
+- in courses 
+- to solve tickets
 
-## Questions
+is awesome!
+
+## Questions?
 
 Never hesitate to chat about documentation with me :-)
 
 ![](CC0.png) Richèl Bilderbeek
 
-[https://github.com/richelbilderbeek/](https://github.com/richelbilderbeek/nbis_retreat_presentation_20250313)
-[nbis_retreat_presentation_20250313](https://github.com/richelbilderbeek/nbis_retreat_presentation_20250313)
+`richel.bilderbeek@nbis.se`
+
+[https://github.com/richelbilderbeek/](https://github.com/richelbilderbeek/nbis_retreat_presentation_20250313) [nbis_retreat_presentation_20250313](https://github.com/richelbilderbeek/nbis_retreat_presentation_20250313)
