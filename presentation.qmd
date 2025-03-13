@@ -19,17 +19,17 @@ High quality, efficient workflow, while caring for our users
 
 [https://github.com/richelbilderbeek/](https://github.com/richelbilderbeek/nbis_retreat_presentation_20250313) [nbis_retreat_presentation_20250313](https://github.com/richelbilderbeek/nbis_retreat_presentation_20250313)
 
-## SCoRe :nerd_face: HPC clusters
-
-SCoRe: Support for Computational Resources
-
-![A human meddling with an HPC cluster](uppmax-light2.jpg)
-
 ## Goal
 
 To show off something we do at SCoRe: the user documentation of the UPPMAX HPC clusters at <https://docs.uppmax.uu.se/>
 
 ![](home_with_border.png)
+
+## SCoRe :nerd_face: HPC clusters
+
+SCoRe: Support for Computational Resources
+
+![A human meddling with an HPC cluster](uppmax-light2.jpg)
 
 ## Support 1/3: Documentation
 
@@ -119,7 +119,6 @@ flowchart TD
 -   1,405 internal links
 -   46 mermaid graphs
 -   99 YouTube videos
-
 :::
 
 ::: {.column width="50%"}
@@ -137,25 +136,6 @@ flowchart TD
 | `create_website` | Creates and deploys the website                      |
 
 ![](badges.png)
-
-## Technology stack 1/2
-
-| Parameter       | Value               |
-|-----------------|---------------------|
-| Technology      | MkDocs              |
-| Text editor     | Plain-text markdown |
-| Deployment      | Every commit        |
-| Version control | `git`               |
-| Spellcheck      | Every commit        |
-
-## Technology stack 2/2
-
-| Parameter             | User documentation                          |
-|-----------------------|---------------------------------------------|
-| Layout check          | Every commit                                |
-| URL link check        | Every commit                                |
-| Bug tracker           | GitHub issues                               |
-| Interaction with user | Issues, PRs, email, anonymous feedback form |
 
 ## [Issue](https://github.com/UPPMAX/UPPMAX-documentation/issues/129)
 
@@ -216,12 +196,7 @@ We think we do a good job:
 
 ## Take home message
 
-Using your user documentation 
-
-- in courses 
-- to solve tickets
-
-is awesome!
+Using your user documentation in courses is awesome!
 
 ## Questions?
 
