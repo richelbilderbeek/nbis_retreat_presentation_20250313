@@ -137,6 +137,10 @@ flowchart TD
 
 ![](badges.png)
 
+## [Issues](https://github.com/UPPMAX/UPPMAX-documentation/issues/)
+
+![](issues.png)
+
 ## [Issue](https://github.com/UPPMAX/UPPMAX-documentation/issues/129)
 
 ![](issue.png)
@@ -172,6 +176,8 @@ It shows we care about efficiency:
 -   The documentation can solve tickets
 -   Tickets improve the documentation
 -   Anyone can help improve
+
+![](rt_ticket_1.png)
 
 ## What it shows 3/3
 
