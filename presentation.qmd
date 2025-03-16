@@ -126,7 +126,7 @@ flowchart TD
 :::
 :::::
 
-## Scripts
+## Continuous integration scripts
 
 | Script name      | Description                                          |
 |------------------|------------------------------------------------------|
@@ -136,10 +136,6 @@ flowchart TD
 | `create_website` | Creates and deploys the website                      |
 
 ![](badges.png)
-
-## [Issues](https://github.com/UPPMAX/UPPMAX-documentation/issues/)
-
-![](issues.png)
 
 ## [Issue](https://github.com/UPPMAX/UPPMAX-documentation/issues/129)
 
