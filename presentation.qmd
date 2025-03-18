@@ -91,7 +91,7 @@ flowchart TD
 
 ## Humans
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 -   8 Contributors
 -   2,786 commits
@@ -105,11 +105,11 @@ flowchart TD
 ::: {.column width="50%"}
 ![](contributors.png)
 :::
-:::::
+:::
 
 ## Content
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 -   364 pages
 -   39,349 lines
@@ -124,7 +124,7 @@ flowchart TD
 ::: {.column width="50%"}
 ![](dardel_migration_page.png)
 :::
-:::::
+:::
 
 ## Continuous integration scripts
 
